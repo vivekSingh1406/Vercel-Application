@@ -1,0 +1,58 @@
+import { VillageVideo } from '../core/models/content';
+export const VIDEOS: VillageVideo[] = [
+  {
+    id: 'v1',
+    title: 'A village comes together',
+    description: 'A community gathering beside the pond and temple.',
+    src: '/images/VID_20260927_090259_079.mp4',
+    poster: '/media/village-1.jpg',
+    duration: '1:21',
+    credit: 'Original community footage; credits embedded in video.',
+  },
+  {
+    id: 'v2',
+    title: 'Our home, from above',
+    description: 'A bird’s-eye journey over familiar lanes and homes.',
+    src: '/images/VID_20260927_090332_533.mp4',
+    poster: '/media/village-2.jpg',
+    duration: '1:19',
+    credit: 'Original community footage; credits embedded in video.',
+  },
+  {
+    id: 'v3',
+    title: 'The green around us',
+    description: 'Trees, fields and the everyday beauty of the village.',
+    src: '/images/VID_20260927_090404_386.mp4',
+    poster: '/media/village-3.jpg',
+    duration: '0:52',
+    credit: 'Ajay Kumar Bais · community-provided video.',
+  },
+  {
+    id: 'v4',
+    title: 'By the village pond',
+    description: 'A quiet view of water, sky and familiar surroundings.',
+    src: '/images/VID_20260927_090421_625.mp4',
+    poster: '/media/village-4.jpg',
+    duration: '0:29',
+    credit: 'Ajay Kumar Bais · community-provided video.',
+  },
+  {
+    id: 'v5',
+    title: 'A glimpse of Gautiyan',
+    description: 'A short collection of moments from the village.',
+    src: '/images/VID_20260927_090437_223.mp4',
+    poster: '/media/village-5.jpg',
+    duration: '0:57',
+    credit: 'Ajay Kumar Bais · community-provided video.',
+  },
+  {
+    id: 'v6',
+    title: 'Across the rooftops',
+    description:
+      'An aerial village tour. This original clip is sideways; use the rotate control for a comfortable view.',
+    src: '/images/WhatsApp Video 2026-09-27 at 21.30.26.mp4',
+    poster: '/media/village-6.jpg',
+    duration: '0:42',
+    credit: 'Ajay Kumar Bais · community-provided video.',
+  },
+];

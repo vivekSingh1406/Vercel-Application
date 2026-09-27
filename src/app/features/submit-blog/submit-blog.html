@@ -1,0 +1,113 @@
+<section class="container page submission-page">
+  <header class="page-heading">
+    <p class="eyebrow">{{ copy.eyebrow }}</p>
+    <h1>{{ copy.title }}</h1>
+    <p>{{ copy.description }}</p>
+  </header>
+  <div class="submission-layout">
+    <aside class="submission-aside">
+      <img
+        src="/media/village-4.jpg"
+        alt="The village pond under an open blue sky"
+        width="864"
+        height="1920"
+      />
+      <h2>{{ copy.asideTitle }}</h2>
+      <ol>
+        @for (step of copy.steps; track step.title; let i = $index) {
+          <li>
+            <span>0{{ i + 1 }}</span>
+            <div>
+              <strong>{{ step.title }}</strong>
+              <p>{{ step.text }}</p>
+            </div>
+          </li>
+        }
+      </ol>
+    </aside>
+    <div class="form-card">
+      <h2>Submit your blog</h2>
+      <p class="form-intro">Your words matter. Start wherever your memory takes you.</p>
+      <form [formGroup]="form" (ngSubmit)="submit(fileInput)">
+        <label for="blog-name">Your name <span>*</span></label
+        ><input
+          id="blog-name"
+          autocomplete="name"
+          formControlName="name"
+          placeholder="Your name"
+          [maxlength]="limits.name"
+        /><app-form-error [control]="form.controls.name" label="Your name" /><label for="blog-title"
+          >Story title <span>*</span></label
+        ><input
+          id="blog-title"
+          formControlName="title"
+          placeholder="Give your memory a title"
+          [maxlength]="limits.title"
+        /><app-form-error [control]="form.controls.title" label="The title" /><label
+          for="blog-content"
+          >Your story <span>*</span></label
+        ><textarea
+          id="blog-content"
+          rows="12"
+          formControlName="content"
+          placeholder="It all began…"
+          [maxlength]="limits.blog"
+        ></textarea
+        ><app-form-error [control]="form.controls.content" label="Your story" /><small
+          class="form-hint"
+          >{{ form.controls.content.value.length }} / {{ limits.blog }} characters · At least
+          {{ limits.minBlog }} characters</small
+        ><label for="blog-image">A photograph <small>(optional)</small></label>
+        <div class="upload-zone">
+          <app-icon name="image" /><input
+            #fileInput
+            id="blog-image"
+            type="file"
+            accept="image/jpeg,image/png,image/webp"
+            (change)="selectImage($event)"
+          /><small>JPG, PNG or WebP · Maximum 1.5 MB</small>
+        </div>
+        @if (imageError()) {
+          <p class="field-error" role="alert">{{ imageError() }}</p>
+        }
+        @if (image()) {
+          <img class="upload-preview" [src]="image()" alt="Your selected photograph" />
+        }
+        <p class="form-hint">
+          Your draft is saved only in this browser. WhatsApp does not attach the image
+          automatically; attach your original photo when sending. Nothing is published
+          automatically.
+        </p>
+        <button class="button button-primary" type="submit" [disabled]="reading()">
+          {{ reading() ? 'Preparing image…' : 'Prepare my story' }} <app-icon name="arrow" />
+        </button>
+      </form>
+      @if (success()) {
+        <div class="success-panel" role="status">
+          <app-icon name="check" />
+          <div>
+            <strong>Your story is saved locally.</strong>
+            @if (url()) {
+              <p>
+                Open WhatsApp below, attach your photograph if needed, and press Send. Publication
+                follows the administrator’s review.
+              </p>
+              <a
+                class="button button-primary"
+                [href]="url()"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Continue to WhatsApp ↗</a
+              >
+            } @else {
+              <p>
+                The administrator has not configured WhatsApp yet. Your draft remains on this device
+                and has not been delivered.
+              </p>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>
