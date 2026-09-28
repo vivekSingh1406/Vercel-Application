@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "collections": {
+    "blogs": 3,
+    "messages": 4,
+    "submissions": 0
+  },
+  "comparison": "All persisted domain fields and versions equal before/after process restart. Presentation-only date fields excluded."
+}

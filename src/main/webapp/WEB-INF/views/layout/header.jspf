@@ -1,0 +1,7 @@
+<%@ page pageEncoding="UTF-8" %>
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="theme-color" content="#294e42"/>
+<title><c:out value="${pageTitle}"/> | Gautiyan Tola (Saman)</title><meta name="description" content="${fn:escapeXml(description)}"/><meta property="og:title" content="${fn:escapeXml(pageTitle)} | Gautiyan Tola (Saman)"/><meta property="og:description" content="${fn:escapeXml(description)}"/><meta property="og:image" content="${fn:escapeXml(ogImage)}"/><meta property="og:url" content="${fn:escapeXml(pageUrl)}"/><meta property="og:type" content="${empty story ? 'website' : 'article'}"/>
+<meta name="csrf-token" content="${_csrf.token}"/><meta name="csrf-header" content="${_csrf.headerName}"/>
+<link rel="icon" type="image/svg+xml" href="${pageContext.request.contextPath}/favicon.svg"/><link rel="stylesheet" href="${pageContext.request.contextPath}/css/site.css"/><link rel="stylesheet" href="${pageContext.request.contextPath}/css/jsp.css"/>
+<script src="${pageContext.request.contextPath}/js/theme.js"></script><script defer src="${pageContext.request.contextPath}/js/site.js"></script></head><body><app-root><a href="#main-content" class="skip-link">Skip to content</a>
+<%@ include file="../common/navbar.jspf" %><main id="main-content" tabindex="-1">

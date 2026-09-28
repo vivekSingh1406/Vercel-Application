@@ -1,0 +1,2 @@
+<%@ page pageEncoding="UTF-8" %>
+</main><%@ include file="../common/footer.jspf" %><app-whatsapp-button><ui:whatsapp floating="${true}"/></app-whatsapp-button><button hidden class="scroll-top icon-button" aria-label="Scroll to top"><ui:icon name="up"/></button><div class="toast-region" aria-live="polite" aria-atomic="true"></div></app-root></body></html>

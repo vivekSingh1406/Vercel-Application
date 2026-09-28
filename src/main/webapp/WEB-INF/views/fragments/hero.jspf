@@ -1,0 +1,38 @@
+<%@ page pageEncoding="UTF-8" %>
+<app-hero><section class="hero">
+      <img
+        class="hero-photo"
+        src="${fn:escapeXml(info.heroImage)}"
+        alt="${fn:escapeXml(info.heroAlt)}"
+        fetchpriority="high"
+        width="1080"
+        height="608"
+      />
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-eyebrow">
+          <span class="live-dot"></span> <c:out value="${config.siteName}"/> <span class="hero-line"></span>
+        </div>
+        <h1>
+          <c:out value="${info.heroTitle}"/><br /><em><c:out value="${info.heroEmphasis}"/></em>
+        </h1>
+        <p><c:out value="${info.heroDescription}"/></p>
+        <div class="hero-actions">
+          <a class="button button-cream" href="${pageContext.request.contextPath}/#about"
+            >Discover our village <ui:icon name="arrow"/></a
+          ><button class="hero-film" data-video="${fn:escapeXml(heroVideo.src)}" data-title="${fn:escapeXml(heroVideo.title)}" data-poster="${fn:escapeXml(heroVideo.poster)}" data-credit="${fn:escapeXml(heroVideo.credit)}">
+            <span class="play-small"><ui:icon name="play"/></span> A glimpse of home
+            <small><c:out value="${heroVideo.duration}"/></small>
+          </button>
+        </div>
+      </div>
+      <div class="container hero-bottom">
+        <a href="${pageContext.request.contextPath}/#about" class="scroll-cue"
+          ><span>↓</span> SCROLL TO FEEL AT HOME</a
+        >
+        <p lang="hi"><c:out value="${info.hindi}"/></p>
+        <span class="hero-location"><ui:icon name="pin"/> <c:out value="${config.location}"/></span>
+      </div>
+      <div class="hero-side-note">ROOTED HERE. CONNECTED EVERYWHERE.</div>
+    </section>
+</app-hero>

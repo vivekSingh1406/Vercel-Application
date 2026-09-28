@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.example.application.AdminSecurityTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.292 s -- in com.example.application.AdminSecurityTest
+
+-------------------------------------------------------------------------------
+Test set: com.example.application.MigrationTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.462 s -- in com.example.application.MigrationTest

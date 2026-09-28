@@ -1,0 +1,9 @@
+PASS every route, desktop/mobile layouts, screenshots
+PASS message validation, database save, newest-five retention, refresh and WhatsApp handoff
+PASS all six themes and persistence
+PASS gallery filtering, lightbox keyboard/focus, all six video files, rotation and cleanup
+PASS search, article content, reading time, SEO, share URL
+PASS uploaded photo served from filesystem URL
+PASS photo draft save, review/publication, edit persistence, export, cancel and confirm deletion
+PASS message admin create/edit/delete
+PASS responsive routes, mobile navigation, no browser errors or broken resources

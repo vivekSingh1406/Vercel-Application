@@ -1,0 +1,3 @@
+# Copy to application-local.properties and fill in your own database password.
+# The actual application-local.properties file is ignored by Git.
+spring.datasource.password=${DB_PASSWORD:replace-with-your-password}

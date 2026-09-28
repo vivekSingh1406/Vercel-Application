@@ -1,0 +1,3 @@
+PASS packaged routes, Angular date/reading-time parity and absolute Open Graph image in Asia/Kolkata
+PASS packaged routes, Angular date/reading-time parity and absolute Open Graph image in America/Los_Angeles
+PASS no browser runtime errors

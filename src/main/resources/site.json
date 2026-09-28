@@ -1,0 +1,202 @@
+{
+  "SITE_CONFIG": {
+    "siteName": "Gautiyan Tola (Saman)",
+    "shortName": "Gautiyan Tola",
+    "location": "Saman",
+    "tagline": "Our roots. Our people. Our home.",
+    "description": "Discover Gautiyan Tola (Saman) through village photographs, shared memories, community voices and stories of home.",
+    "whatsappNumber": "919755752534",
+    "maxMessages": 5,
+    "maxImageBytes": 1500000,
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "youtube": ""
+    },
+    "navigation": [
+      {
+        "label": "Home",
+        "path": "/",
+        "fragment": ""
+      },
+      {
+        "label": "Our village",
+        "path": "/",
+        "fragment": "about"
+      },
+      {
+        "label": "Gallery",
+        "path": "/gallery",
+        "fragment": ""
+      },
+      {
+        "label": "Stories",
+        "path": "/blog",
+        "fragment": ""
+      },
+      {
+        "label": "Community",
+        "path": "/",
+        "fragment": "community"
+      }
+    ]
+  },
+  "VILLAGE_INFO": {
+    "belonging": [
+      {
+        "icon": "leaf",
+        "text": "Rooted in nature"
+      },
+      {
+        "icon": "people",
+        "text": "Woven together by community"
+      },
+      {
+        "icon": "heart",
+        "text": "Always a place to call home"
+      }
+    ],
+    "photoLabel": "A little corner of our world",
+    "storyInvitation": "Every voice adds a page to our story.",
+    "contactNote": "A conversation is a lovely place to start.",
+    "pages": {
+      "gallery": {
+        "eyebrow": "The village album",
+        "title": "A place to remember."
+      },
+      "journal": {
+        "eyebrow": "The village journal",
+        "title": "Every story brings us closer.",
+        "description": "Memories, reflections, and little pieces of life in Gautiyan Tola."
+      },
+      "submission": {
+        "eyebrow": "A page in our shared story",
+        "title": "Some stories only you can tell.",
+        "description": "A childhood memory. A village tradition. Someone who made a difference. Let’s keep those stories alive, together.",
+        "asideTitle": "From your heart,\nto our village.",
+        "steps": [
+          {
+            "title": "Put it into words",
+            "text": "Write in the language that feels like home."
+          },
+          {
+            "title": "Share on WhatsApp",
+            "text": "Send your prepared story to the administrator."
+          },
+          {
+            "title": "A new chapter, together",
+            "text": "After review, the administrator can add it to the public website."
+          }
+        ]
+      }
+    },
+    "eyebrow": "A little place. A lasting belonging.",
+    "heroTitle": "Some places are",
+    "heroEmphasis": "always home.",
+    "heroDescription": "Welcome to Gautiyan Tola (Saman). A place of familiar faces, shared traditions, and stories that bring us together — wherever life takes us.",
+    "heroImage": "/media/village-2.jpg",
+    "heroAlt": "An aerial view of Gautiyan Tola, with homes nestled among trees and fields",
+    "hindi": "अपना गाँव, अपनी पहचान",
+    "aboutEyebrow": "Rooted in togetherness",
+    "aboutTitle": "More than a village.\nA feeling of belonging.",
+    "aboutText": "Home is in the little things. A familiar path, a conversation that lasts a little longer, the quiet of the pond, and the joy of coming together. Gautiyan Tola is a collection of these everyday moments.",
+    "aboutSecond": "This is our shared space to keep those moments close. To celebrate the people who make our village special, preserve our memories, and stay connected across generations.",
+    "aboutImage": "/media/village-4.jpg",
+    "values": [
+      {
+        "icon": "leaf",
+        "title": "Close to nature",
+        "text": "Open skies, green surroundings, and room to breathe."
+      },
+      {
+        "icon": "people",
+        "title": "Connected by heart",
+        "text": "Familiar faces. Shared moments. A place for everyone."
+      },
+      {
+        "icon": "sun",
+        "title": "Traditions, living on",
+        "text": "The memories we cherish and the stories we pass on."
+      }
+    ],
+    "gallery": {
+      "eyebrow": "Through our lens",
+      "title": "Little moments. Lasting memories.",
+      "description": "A glimpse of the places and people that make this place ours."
+    },
+    "videos": {
+      "eyebrow": "The village, in motion",
+      "title": "A little closer to home.",
+      "description": "Press play. Take a walk through familiar surroundings."
+    },
+    "community": {
+      "eyebrow": "From our people",
+      "title": "Many voices. One home.",
+      "description": "A memory, a thought, a simple hello. There is always room for your voice."
+    },
+    "stories": {
+      "eyebrow": "The village journal",
+      "title": "Stories worth keeping.",
+      "description": "Every lane has a memory. Every person has a story."
+    },
+    "contact": {
+      "eyebrow": "Let’s stay connected",
+      "title": "Near or far,\nyou belong here.",
+      "text": "Have a memory to share, a question to ask, or an idea for our village? We would love to hear from you."
+    },
+    "footer": "Made for our village. Kept alive by our people.",
+    "mediaCredit": "Village footage supplied by the community. Original creator credits are retained in the media."
+  },
+  "THEMES": [
+    {
+      "id": "default",
+      "name": "Original",
+      "swatch": "#294e42"
+    },
+    {
+      "id": "green",
+      "name": "Village green",
+      "swatch": "#49734c"
+    },
+    {
+      "id": "sunset",
+      "name": "Sunset",
+      "swatch": "#a14b37"
+    },
+    {
+      "id": "earth",
+      "name": "Earth",
+      "swatch": "#735a3e"
+    },
+    {
+      "id": "night",
+      "name": "Night",
+      "swatch": "#222e39"
+    },
+    {
+      "id": "warm",
+      "name": "Warm",
+      "swatch": "#9a6725"
+    }
+  ],
+  "ICONS": {
+    "arrow": "M4 12h16m-6-6 6 6-6 6",
+    "up": "M12 20V4m-6 6 6-6 6 6",
+    "close": "m6 6 12 12M18 6 6 18",
+    "menu": "M4 6h16M4 12h16M4 18h16",
+    "play": "m9 5 11 7-11 7z",
+    "leaf": "M19 3c-9-1-16 3-15 10 1 8 12 8 15-10ZM4 21 15 9m-7 8-1-6m4 3 5 1",
+    "sun": "M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1",
+    "people": "M15 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM5 21v-3a7 7 0 0 1 14 0v3M19 5a3 3 0 0 1 0 6M2 5a3 3 0 0 1 0 6",
+    "chat": "M21 11a9 9 0 0 1-9 9 10 10 0 0 1-4-1l-5 2 1-5a9 9 0 1 1 17-5ZM8 11h8m-8 4h5",
+    "pin": "M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Zm-5 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z",
+    "heart": "M20 5c-3-3-7-1-8 2-1-3-5-5-8-2-5 5 8 15 8 15S25 10 20 5Z",
+    "search": "M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm-2 5 6 6",
+    "pen": "m4 16-1 5 5-1L21 7l-4-4L4 16Zm10-10 4 4",
+    "image": "M3 3h18v18H3zM3 17l5-5 4 4 4-6 5 7M9 7h.01",
+    "check": "m4 12 5 5L20 6",
+    "back": "M20 12H4m6-6-6 6 6 6",
+    "share": "M12 16V3m-4 4 4-4 4 4M6 10H3v11h18V10h-3",
+    "rotate": "M20 8A8 8 0 1 0 20 16M20 3v5h-5"
+  }
+}

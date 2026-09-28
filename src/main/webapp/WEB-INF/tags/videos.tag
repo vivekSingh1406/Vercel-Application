@@ -1,0 +1,6 @@
+<%@ tag pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<%@ taglib prefix="fn" uri="jakarta.tags.functions" %>
+<%@ taglib prefix="ui" tagdir="/WEB-INF/tags" %>
+<%@ attribute name="items" type="java.util.List" required="true" %>
+<app-video-section><div class="video-grid"><c:forEach items="${items}" var="video"><button class="video-card" data-video="${fn:escapeXml(video.src)}" data-title="${fn:escapeXml(video.title)}" data-poster="${fn:escapeXml(video.poster)}" data-description="${fn:escapeXml(video.description)}" data-credit="${fn:escapeXml(video.credit)}" data-rotate="${video.id eq 'v5' or video.id eq 'v6'}"><span class="video-poster"><img src="${fn:escapeXml(video.poster)}" alt="${fn:escapeXml(video.title)}" loading="lazy" width="600" height="400"/><span class="play-button"><ui:icon name="play"/></span><span class="duration"><c:out value="${video.duration}"/></span></span><span class="video-card-title"><c:out value="${video.title}"/><ui:icon name="arrow"/></span><span class="video-description"><c:out value="${video.description}"/></span></button></c:forEach></div></app-video-section>

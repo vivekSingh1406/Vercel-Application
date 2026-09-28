@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "css": "byte-identical to src/styles.scss",
+  "assets": [
+    "public/favicon.ico",
+    "public/favicon.svg",
+    "public/media/village-1.jpg",
+    "public/media/village-2.jpg",
+    "public/media/village-3.jpg",
+    "public/media/village-6.jpg",
+    "public/media/village-4.jpg",
+    "public/media/village-5.jpg",
+    "images/WhatsApp Image 2026-09-27 at 21.40.57.jpeg",
+    "images/WhatsApp Video 2026-09-27 at 21.30.26.mp4",
+    "images/VID_20260927_090421_625.mp4",
+    "images/VID_20260927_090259_079.mp4",
+    "images/VID_20260927_090332_533.mp4",
+    "images/VID_20260927_090404_386.mp4",
+    "images/VID_20260927_090437_223.mp4"
+  ]
+}

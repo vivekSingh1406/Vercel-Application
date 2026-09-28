@@ -1,0 +1,436 @@
+[
+  {
+    "name": "home",
+    "width": 390,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "hero",
+        "x": 9,
+        "y": 74,
+        "w": 372,
+        "h": 690
+      },
+      {
+        "selector": "H1",
+        "x": 30,
+        "y": 207.078125,
+        "w": 330,
+        "h": 172.03125
+      },
+      {
+        "selector": "section container about-section",
+        "x": 20,
+        "y": 828.796875,
+        "w": 350,
+        "h": 983.28125
+      },
+      {
+        "selector": "gallery-grid preview",
+        "x": 20,
+        "y": 2427.125,
+        "w": 350,
+        "h": 684
+      },
+      {
+        "selector": "video-grid",
+        "x": 20,
+        "y": 3417.875,
+        "w": 350,
+        "h": 938.90625
+      },
+      {
+        "selector": "messages-grid",
+        "x": 20,
+        "y": 4724.59375,
+        "w": 350,
+        "h": 1025.1875
+      },
+      {
+        "selector": "blogs-grid",
+        "x": 20,
+        "y": 6650.421875,
+        "w": 350,
+        "h": 1403.5
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 8667.796875,
+        "w": 390,
+        "h": 362.203125
+      }
+    ]
+  },
+  {
+    "name": "home",
+    "width": 1440,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "hero",
+        "x": 20,
+        "y": 92,
+        "w": 1400,
+        "h": 860
+      },
+      {
+        "selector": "H1",
+        "x": 100,
+        "y": 338.5625,
+        "w": 640.265625,
+        "h": 211.5
+      },
+      {
+        "selector": "section container about-section",
+        "x": 100,
+        "y": 1033.59375,
+        "w": 1240,
+        "h": 670
+      },
+      {
+        "selector": "gallery-grid preview",
+        "x": 100,
+        "y": 2134.75,
+        "w": 1240,
+        "h": 460
+      },
+      {
+        "selector": "video-grid",
+        "x": 100,
+        "y": 2969.3125,
+        "w": 1240,
+        "h": 327.578125
+      },
+      {
+        "selector": "messages-grid",
+        "x": 100,
+        "y": 3671.453125,
+        "w": 1240,
+        "h": 330.5625
+      },
+      {
+        "selector": "blogs-grid",
+        "x": 100,
+        "y": 4811.109375,
+        "w": 1240,
+        "h": 465.5
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 5923.75,
+        "w": 1440,
+        "h": 227.28125
+      }
+    ]
+  },
+  {
+    "name": "gallery",
+    "width": 390,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "H1",
+        "x": 20,
+        "y": 142,
+        "w": 350,
+        "h": 97.15625
+      },
+      {
+        "selector": "gallery-grid ",
+        "x": 20,
+        "y": 393.546875,
+        "w": 350,
+        "h": 1839.9375
+      },
+      {
+        "selector": "video-grid",
+        "x": 20,
+        "y": 2481.546875,
+        "w": 350,
+        "h": 1929.40625
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 4540.953125,
+        "w": 390,
+        "h": 362.203125
+      }
+    ]
+  },
+  {
+    "name": "gallery",
+    "width": 1440,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "H1",
+        "x": 320,
+        "y": 197,
+        "w": 800,
+        "h": 81.359375
+      },
+      {
+        "selector": "gallery-grid ",
+        "x": 100,
+        "y": 465.546875,
+        "w": 1240,
+        "h": 686.65625
+      },
+      {
+        "selector": "video-grid",
+        "x": 100,
+        "y": 1459.765625,
+        "w": 1240,
+        "h": 704.734375
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 2374.5,
+        "w": 1440,
+        "h": 227.28125
+      }
+    ]
+  },
+  {
+    "name": "journal",
+    "width": 390,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "H1",
+        "x": 20,
+        "y": 142,
+        "w": 350,
+        "h": 97.15625
+      },
+      {
+        "selector": "blogs-grid",
+        "x": 20,
+        "y": 549.921875,
+        "w": 350,
+        "h": 1403.5
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 2018.421875,
+        "w": 390,
+        "h": 362.203125
+      }
+    ]
+  },
+  {
+    "name": "journal",
+    "width": 1440,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "H1",
+        "x": 320,
+        "y": 197,
+        "w": 800,
+        "h": 162.71875
+      },
+      {
+        "selector": "blogs-grid",
+        "x": 100,
+        "y": 665.609375,
+        "w": 1240,
+        "h": 465.5
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 1241.109375,
+        "w": 1440,
+        "h": 227.28125
+      }
+    ]
+  },
+  {
+    "name": "article",
+    "width": 390,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "H1",
+        "x": 20,
+        "y": 218.390625,
+        "w": 350,
+        "h": 97.15625
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 1764.5,
+        "w": 390,
+        "h": 362.203125
+      }
+    ]
+  },
+  {
+    "name": "article",
+    "width": 1440,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "H1",
+        "x": 280,
+        "y": 293.390625,
+        "w": 880,
+        "h": 81.359375
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 1843.578125,
+        "w": 1440,
+        "h": 227.28125
+      }
+    ]
+  },
+  {
+    "name": "submission",
+    "width": 390,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "H1",
+        "x": 20,
+        "y": 142,
+        "w": 350,
+        "h": 97.15625
+      },
+      {
+        "selector": "submission-layout",
+        "x": 20,
+        "y": 339.9375,
+        "w": 350,
+        "h": 1685.453125
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 2090.390625,
+        "w": 390,
+        "h": 362.203125
+      }
+    ]
+  },
+  {
+    "name": "submission",
+    "width": 1440,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "H1",
+        "x": 320,
+        "y": 197,
+        "w": 800,
+        "h": 162.71875
+      },
+      {
+        "selector": "submission-layout",
+        "x": 100,
+        "y": 496.3125,
+        "w": 1240,
+        "h": 1017.03125
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 1623.34375,
+        "w": 1440,
+        "h": 227.28125
+      }
+    ]
+  },
+  {
+    "name": "admin",
+    "width": 390,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "H1",
+        "x": 20,
+        "y": 142,
+        "w": 326.109375,
+        "h": 47.453125
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 1531.5,
+        "w": 390,
+        "h": 362.203125
+      }
+    ]
+  },
+  {
+    "name": "admin",
+    "width": 1440,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "H1",
+        "x": 100,
+        "y": 197,
+        "w": 614.859375,
+        "h": 89.484375
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 1320.46875,
+        "w": 1440,
+        "h": 227.28125
+      }
+    ]
+  },
+  {
+    "name": "not-found",
+    "width": 390,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "H1",
+        "x": 46,
+        "y": 168,
+        "w": 298,
+        "h": 97.625
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 622.59375,
+        "w": 390,
+        "h": 362.203125
+      }
+    ]
+  },
+  {
+    "name": "not-found",
+    "width": 1440,
+    "app": "jsp",
+    "geometry": [
+      {
+        "selector": "H1",
+        "x": 26,
+        "y": 219,
+        "w": 1388,
+        "h": 89.484375
+      },
+      {
+        "selector": "site-footer",
+        "x": 0,
+        "y": 742,
+        "w": 1440,
+        "h": 227.28125
+      }
+    ]
+  }
+]

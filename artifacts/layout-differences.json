@@ -1,0 +1,18 @@
+[
+  {
+    "page": "admin",
+    "width": 390,
+    "selector": "site-footer",
+    "delta": {
+      "y": -37.38
+    }
+  },
+  {
+    "page": "admin",
+    "width": 1440,
+    "selector": "site-footer",
+    "delta": {
+      "y": -20.69
+    }
+  }
+]

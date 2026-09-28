@@ -1,0 +1,6 @@
+/* Angular host icon styling and state selectors, preserved for inert wrappers. */
+app-icon {display:inline-flex;width:1.3em;height:1.3em;flex-shrink:0;vertical-align:middle} app-icon svg {width:100%;height:100%}
+[hidden] {display:none !important} input[aria-invalid="true"],textarea[aria-invalid="true"] {border-color:#b7503f}
+/* Hidden CSRF/version fields precede labels in Spring forms. */
+.message-form-panel form > label:first-of-type {margin-top:0}
+.admin-form > label:first-of-type {margin-top:5px}

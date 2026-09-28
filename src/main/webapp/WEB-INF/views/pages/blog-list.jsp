@@ -1,0 +1,7 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<%@ taglib prefix="fn" uri="jakarta.tags.functions" %>
+<%@ taglib prefix="ui" tagdir="/WEB-INF/tags" %>
+<%@ include file="../layout/header.jspf" %>
+<section class="container page"><header class="page-heading"><p class="eyebrow"><c:out value="${info.pages.journal.eyebrow}"/></p><h1><c:out value="${info.pages.journal.title}"/></h1><p><c:out value="${info.pages.journal.description}"/></p><a href="${pageContext.request.contextPath}/submit-blog" class="button button-primary">Share your story <ui:icon name="pen"/></a></header><div class="journal-toolbar"><label class="search-field"><ui:icon name="search"/><input id="story-search" type="search" aria-label="Search village stories" placeholder="Find a story, a memory, a name…"/></label><span id="story-count">${fn:length(blogs)} ${fn:length(blogs) eq 1 ? 'story' : 'stories'} to discover</span></div><div class="blogs-grid"><c:forEach items="${blogs}" var="blog"><ui:blog blog="${blog}"/></c:forEach><div class="empty-state" id="search-empty" hidden><ui:icon name="search"/><h2>No stories found.</h2><p>Try another word, or share a story of your own.</p></div></div></section>
+<%@ include file="../layout/footer.jspf" %>

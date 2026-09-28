@@ -1,0 +1,6 @@
+<%@ tag pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<%@ taglib prefix="fn" uri="jakarta.tags.functions" %>
+<%@ taglib prefix="ui" tagdir="/WEB-INF/tags" %>
+<%@ attribute name="blog" type="java.util.Map" required="true" %>
+<app-blog-card data-search="${fn:escapeXml(blog.title)} ${fn:escapeXml(blog.excerpt)} ${fn:escapeXml(blog.author)} ${fn:escapeXml(blog.category)}"><article class="blog-card"><a class="blog-image" href="${pageContext.request.contextPath}/blog/${fn:escapeXml(blog.slug)}"><img src="${fn:escapeXml(empty blog.image ? '/media/village-2.jpg' : blog.image)}" alt="${fn:escapeXml(blog.title)}" loading="lazy" width="640" height="440"/><span class="image-arrow"><ui:icon name="arrow"/></span></a><div class="blog-meta"><span><c:out value="${empty blog.category ? 'Community' : blog.category}"/></span><span data-date="${blog.createdAt}"><c:out value="${blog.date}"/></span></div><h3><a href="${pageContext.request.contextPath}/blog/${fn:escapeXml(blog.slug)}"><c:out value="${blog.title}"/></a></h3><p><c:out value="${blog.excerpt}"/></p><div class="blog-bottom"><span>By <c:out value="${blog.author}"/></span><a href="${pageContext.request.contextPath}/blog/${fn:escapeXml(blog.slug)}" aria-label="Read ${fn:escapeXml(blog.title)}">Read story <ui:icon name="arrow"/></a></div></article></app-blog-card>
