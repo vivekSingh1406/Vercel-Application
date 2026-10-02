@@ -1,0 +1,1109 @@
+{
+  "id": "general-knowledge",
+  "title": "General Knowledge Exam",
+  "marksPerQuestion": 1,
+  "incorrectMarks": 0,
+  "unansweredMarks": 0,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the capital of France?",
+      "options": [
+        "Paris",
+        "Berlin",
+        "Madrid",
+        "Rome"
+      ],
+      "answer": "Paris"
+    },
+    {
+      "id": 2,
+      "question": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Jupiter",
+        "Mercury",
+        "Mars"
+      ],
+      "answer": "Mars"
+    },
+    {
+      "id": 3,
+      "question": "Which ocean is the largest on Earth?",
+      "options": [
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean",
+        "Atlantic Ocean"
+      ],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "id": 4,
+      "question": "How many sides does a triangle have?",
+      "options": [
+        "6",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 5,
+      "question": "Which gas do plants absorb during photosynthesis?",
+      "options": [
+        "Carbon dioxide",
+        "Helium",
+        "Hydrogen",
+        "Neon"
+      ],
+      "answer": "Carbon dioxide"
+    },
+    {
+      "id": 6,
+      "question": "What is the chemical symbol for gold?",
+      "options": [
+        "Ag",
+        "Fe",
+        "Cu",
+        "Au"
+      ],
+      "answer": "Au"
+    },
+    {
+      "id": 7,
+      "question": "Which organ pumps blood around the human body?",
+      "options": [
+        "Lungs",
+        "Kidneys",
+        "Heart",
+        "Liver"
+      ],
+      "answer": "Heart"
+    },
+    {
+      "id": 8,
+      "question": "How many days are in a leap year?",
+      "options": [
+        "360",
+        "366",
+        "365",
+        "364"
+      ],
+      "answer": "366"
+    },
+    {
+      "id": 9,
+      "question": "Which is the largest planet in our solar system?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Earth",
+        "Neptune"
+      ],
+      "answer": "Jupiter"
+    },
+    {
+      "id": 10,
+      "question": "What is the freezing point of pure water at standard atmospheric pressure in Celsius?",
+      "options": [
+        "10",
+        "32",
+        "100",
+        "0"
+      ],
+      "answer": "0"
+    },
+    {
+      "id": 11,
+      "question": "Which continent contains the Sahara Desert?",
+      "options": [
+        "Europe",
+        "Australia",
+        "Africa",
+        "Asia"
+      ],
+      "answer": "Africa"
+    },
+    {
+      "id": 12,
+      "question": "Which instrument measures temperature?",
+      "options": [
+        "Ruler",
+        "Thermometer",
+        "Barometer",
+        "Compass"
+      ],
+      "answer": "Thermometer"
+    },
+    {
+      "id": 13,
+      "question": "What is the capital of India?",
+      "options": [
+        "New Delhi",
+        "Mumbai",
+        "Kolkata",
+        "Chennai"
+      ],
+      "answer": "New Delhi"
+    },
+    {
+      "id": 14,
+      "question": "Which shape has eight sides?",
+      "options": [
+        "Hexagon",
+        "Pentagon",
+        "Triangle",
+        "Octagon"
+      ],
+      "answer": "Octagon"
+    },
+    {
+      "id": 15,
+      "question": "Which natural satellite orbits Earth?",
+      "options": [
+        "Venus",
+        "The Sun",
+        "The Moon",
+        "Mars"
+      ],
+      "answer": "The Moon"
+    },
+    {
+      "id": 16,
+      "question": "Which language provides the structure of a web page?",
+      "options": [
+        "Bash",
+        "HTML",
+        "CSS",
+        "SQL"
+      ],
+      "answer": "HTML"
+    },
+    {
+      "id": 17,
+      "question": "Which language is primarily used to style web pages?",
+      "options": [
+        "CSS",
+        "SQL",
+        "HTML",
+        "C"
+      ],
+      "answer": "CSS"
+    },
+    {
+      "id": 18,
+      "question": "What does CPU stand for?",
+      "options": [
+        "Central Power Utility",
+        "Computer Program User",
+        "Control Panel Unit",
+        "Central Processing Unit"
+      ],
+      "answer": "Central Processing Unit"
+    },
+    {
+      "id": 19,
+      "question": "Which device is used to type text into a computer?",
+      "options": [
+        "Speaker",
+        "Printer",
+        "Keyboard",
+        "Monitor"
+      ],
+      "answer": "Keyboard"
+    },
+    {
+      "id": 20,
+      "question": "How many bits make one byte?",
+      "options": [
+        "16",
+        "8",
+        "2",
+        "4"
+      ],
+      "answer": "8"
+    },
+    {
+      "id": 21,
+      "question": "Which number is a prime number?",
+      "options": [
+        "13",
+        "12",
+        "15",
+        "21"
+      ],
+      "answer": "13"
+    },
+    {
+      "id": 22,
+      "question": "What is the square root of 81?",
+      "options": [
+        "7",
+        "8",
+        "10",
+        "9"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": 23,
+      "question": "What is the chemical formula for water?",
+      "options": [
+        "O2",
+        "NaCl",
+        "H2O",
+        "CO2"
+      ],
+      "answer": "H2O"
+    },
+    {
+      "id": 24,
+      "question": "Which force pulls objects toward Earth?",
+      "options": [
+        "Buoyancy",
+        "Gravity",
+        "Friction",
+        "Magnetism"
+      ],
+      "answer": "Gravity"
+    },
+    {
+      "id": 25,
+      "question": "Which is the closest star to Earth?",
+      "options": [
+        "The Sun",
+        "Sirius",
+        "Polaris",
+        "Vega"
+      ],
+      "answer": "The Sun"
+    },
+    {
+      "id": 26,
+      "question": "Which mammal can fly using its own wings?",
+      "options": [
+        "Squirrel",
+        "Dolphin",
+        "Rabbit",
+        "Bat"
+      ],
+      "answer": "Bat"
+    },
+    {
+      "id": 27,
+      "question": "Which part of a plant usually absorbs water from soil?",
+      "options": [
+        "Fruit",
+        "Seeds",
+        "Roots",
+        "Flowers"
+      ],
+      "answer": "Roots"
+    },
+    {
+      "id": 28,
+      "question": "How many chambers does the human heart have?",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "3"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": 29,
+      "question": "Which is the largest organ of the human body?",
+      "options": [
+        "Skin",
+        "Heart",
+        "Liver",
+        "Brain"
+      ],
+      "answer": "Skin"
+    },
+    {
+      "id": 30,
+      "question": "Which blood cells primarily transport oxygen?",
+      "options": [
+        "White blood cells",
+        "Platelets",
+        "Nerve cells",
+        "Red blood cells"
+      ],
+      "answer": "Red blood cells"
+    },
+    {
+      "id": 31,
+      "question": "Which vitamin can skin produce when exposed to sunlight?",
+      "options": [
+        "Vitamin B12",
+        "Vitamin K",
+        "Vitamin D",
+        "Vitamin C"
+      ],
+      "answer": "Vitamin D"
+    },
+    {
+      "id": 32,
+      "question": "Which metal is liquid at typical room temperature?",
+      "options": [
+        "Aluminium",
+        "Mercury",
+        "Iron",
+        "Copper"
+      ],
+      "answer": "Mercury"
+    },
+    {
+      "id": 33,
+      "question": "Which gas makes up most of Earth's atmosphere?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
+      "answer": "Nitrogen"
+    },
+    {
+      "id": 34,
+      "question": "Which planet is famous for its prominent ring system?",
+      "options": [
+        "Earth",
+        "Mars",
+        "Venus",
+        "Saturn"
+      ],
+      "answer": "Saturn"
+    },
+    {
+      "id": 35,
+      "question": "How long does Earth take to complete approximately one orbit of the Sun?",
+      "options": [
+        "One month",
+        "One week",
+        "One year",
+        "One day"
+      ],
+      "answer": "One year"
+    },
+    {
+      "id": 36,
+      "question": "Which direction is opposite to north?",
+      "options": [
+        "Northeast",
+        "South",
+        "East",
+        "West"
+      ],
+      "answer": "South"
+    },
+    {
+      "id": 37,
+      "question": "What does a compass primarily indicate?",
+      "options": [
+        "Direction",
+        "Temperature",
+        "Speed",
+        "Mass"
+      ],
+      "answer": "Direction"
+    },
+    {
+      "id": 38,
+      "question": "Which instrument measures atmospheric pressure?",
+      "options": [
+        "Thermometer",
+        "Ammeter",
+        "Ruler",
+        "Barometer"
+      ],
+      "answer": "Barometer"
+    },
+    {
+      "id": 39,
+      "question": "What is the SI unit of electric current?",
+      "options": [
+        "Ohm",
+        "Watt",
+        "Ampere",
+        "Volt"
+      ],
+      "answer": "Ampere"
+    },
+    {
+      "id": 40,
+      "question": "What is the SI unit of force?",
+      "options": [
+        "Kelvin",
+        "Newton",
+        "Joule",
+        "Pascal"
+      ],
+      "answer": "Newton"
+    },
+    {
+      "id": 41,
+      "question": "Which energy source is renewable?",
+      "options": [
+        "Sunlight",
+        "Coal",
+        "Petroleum",
+        "Natural gas"
+      ],
+      "answer": "Sunlight"
+    },
+    {
+      "id": 42,
+      "question": "Which process changes a liquid into a gas?",
+      "options": [
+        "Freezing",
+        "Condensation",
+        "Melting",
+        "Evaporation"
+      ],
+      "answer": "Evaporation"
+    },
+    {
+      "id": 43,
+      "question": "Which process changes a gas into a liquid?",
+      "options": [
+        "Sublimation",
+        "Freezing",
+        "Condensation",
+        "Evaporation"
+      ],
+      "answer": "Condensation"
+    },
+    {
+      "id": 44,
+      "question": "Which of these is a good electrical conductor?",
+      "options": [
+        "Dry wood",
+        "Copper",
+        "Rubber",
+        "Glass"
+      ],
+      "answer": "Copper"
+    },
+    {
+      "id": 45,
+      "question": "What is the chemical symbol for oxygen?",
+      "options": [
+        "O",
+        "Ox",
+        "Og",
+        "Om"
+      ],
+      "answer": "O"
+    },
+    {
+      "id": 46,
+      "question": "What is the chemical symbol for iron?",
+      "options": [
+        "Ir",
+        "I",
+        "In",
+        "Fe"
+      ],
+      "answer": "Fe"
+    },
+    {
+      "id": 47,
+      "question": "What is the capital of Japan?",
+      "options": [
+        "Beijing",
+        "Bangkok",
+        "Tokyo",
+        "Seoul"
+      ],
+      "answer": "Tokyo"
+    },
+    {
+      "id": 48,
+      "question": "What is the capital of Australia?",
+      "options": [
+        "Perth",
+        "Canberra",
+        "Sydney",
+        "Melbourne"
+      ],
+      "answer": "Canberra"
+    },
+    {
+      "id": 49,
+      "question": "On which continent is Brazil?",
+      "options": [
+        "South America",
+        "Africa",
+        "Europe",
+        "Asia"
+      ],
+      "answer": "South America"
+    },
+    {
+      "id": 50,
+      "question": "Which mountain is the highest above sea level?",
+      "options": [
+        "K2",
+        "Kilimanjaro",
+        "Mont Blanc",
+        "Mount Everest"
+      ],
+      "answer": "Mount Everest"
+    },
+    {
+      "id": 51,
+      "question": "Which country contains the pyramids of Giza?",
+      "options": [
+        "Mexico",
+        "India",
+        "Egypt",
+        "Greece"
+      ],
+      "answer": "Egypt"
+    },
+    {
+      "id": 52,
+      "question": "Which ocean lies south of India?",
+      "options": [
+        "Southern Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Atlantic Ocean"
+      ],
+      "answer": "Indian Ocean"
+    },
+    {
+      "id": 53,
+      "question": "Which imaginary line divides Earth into northern and southern hemispheres?",
+      "options": [
+        "Equator",
+        "Prime meridian",
+        "Tropic of Cancer",
+        "Arctic Circle"
+      ],
+      "answer": "Equator"
+    },
+    {
+      "id": 54,
+      "question": "How many degrees are in a right angle?",
+      "options": [
+        "45",
+        "180",
+        "360",
+        "90"
+      ],
+      "answer": "90"
+    },
+    {
+      "id": 55,
+      "question": "How many degrees are in a full turn?",
+      "options": [
+        "180",
+        "270",
+        "360",
+        "90"
+      ],
+      "answer": "360"
+    },
+    {
+      "id": 56,
+      "question": "What is the sum of the interior angles of a triangle in Euclidean geometry?",
+      "options": [
+        "360 degrees",
+        "180 degrees",
+        "90 degrees",
+        "270 degrees"
+      ],
+      "answer": "180 degrees"
+    },
+    {
+      "id": 57,
+      "question": "Which fraction equals one half?",
+      "options": [
+        "2/4",
+        "1/4",
+        "3/4",
+        "2/3"
+      ],
+      "answer": "2/4"
+    },
+    {
+      "id": 58,
+      "question": "What is 25 percent of 200?",
+      "options": [
+        "25",
+        "75",
+        "100",
+        "50"
+      ],
+      "answer": "50"
+    },
+    {
+      "id": 59,
+      "question": "How many centimetres are in a metre?",
+      "options": [
+        "1000",
+        "60",
+        "100",
+        "10"
+      ],
+      "answer": "100"
+    },
+    {
+      "id": 60,
+      "question": "How many seconds are in a minute?",
+      "options": [
+        "120",
+        "60",
+        "30",
+        "100"
+      ],
+      "answer": "60"
+    },
+    {
+      "id": 61,
+      "question": "How many minutes are in two hours?",
+      "options": [
+        "120",
+        "60",
+        "90",
+        "100"
+      ],
+      "answer": "120"
+    },
+    {
+      "id": 62,
+      "question": "How many grams are in a kilogram?",
+      "options": [
+        "100",
+        "10",
+        "500",
+        "1000"
+      ],
+      "answer": "1000"
+    },
+    {
+      "id": 63,
+      "question": "Which number is the smallest?",
+      "options": [
+        "5",
+        "0.15",
+        "0.05",
+        "0.5"
+      ],
+      "answer": "0.05"
+    },
+    {
+      "id": 64,
+      "question": "Which is a programming language?",
+      "options": [
+        "XML",
+        "Python",
+        "HTML",
+        "CSS"
+      ],
+      "answer": "Python"
+    },
+    {
+      "id": 65,
+      "question": "What does a web browser do?",
+      "options": [
+        "Displays web pages",
+        "Measures temperature",
+        "Prints money",
+        "Generates electricity"
+      ],
+      "answer": "Displays web pages"
+    },
+    {
+      "id": 66,
+      "question": "What is the purpose of a password?",
+      "options": [
+        "Increase screen brightness",
+        "Compress images",
+        "Charge a battery",
+        "Help verify a user's identity"
+      ],
+      "answer": "Help verify a user's identity"
+    },
+    {
+      "id": 67,
+      "question": "Which is the strongest password practice?",
+      "options": [
+        "Use your name only",
+        "Share passwords publicly",
+        "Use a long unique password",
+        "Reuse one short password"
+      ],
+      "answer": "Use a long unique password"
+    },
+    {
+      "id": 68,
+      "question": "What does HTTPS help protect?",
+      "options": [
+        "A keyboard from dust",
+        "Data in transit between browser and server",
+        "A laptop from physical theft",
+        "A screen from scratches"
+      ],
+      "answer": "Data in transit between browser and server"
+    },
+    {
+      "id": 69,
+      "question": "What is a database used for?",
+      "options": [
+        "Storing and organizing data",
+        "Measuring voltage",
+        "Cooling a processor",
+        "Displaying sunlight"
+      ],
+      "answer": "Storing and organizing data"
+    },
+    {
+      "id": 70,
+      "question": "Which SQL command retrieves data?",
+      "options": [
+        "PAINT",
+        "DRAW",
+        "PRINT",
+        "SELECT"
+      ],
+      "answer": "SELECT"
+    },
+    {
+      "id": 71,
+      "question": "Which of these is an input device?",
+      "options": [
+        "Speaker",
+        "Projector",
+        "Mouse",
+        "Monitor"
+      ],
+      "answer": "Mouse"
+    },
+    {
+      "id": 72,
+      "question": "What does RAM primarily hold?",
+      "options": [
+        "Electrical fuel",
+        "Data used by running programs",
+        "Only printed documents",
+        "Permanent paper records"
+      ],
+      "answer": "Data used by running programs"
+    },
+    {
+      "id": 73,
+      "question": "Which file extension commonly indicates a JPEG image?",
+      "options": [
+        ".jpg",
+        ".txt",
+        ".mp3",
+        ".csv"
+      ],
+      "answer": ".jpg"
+    },
+    {
+      "id": 74,
+      "question": "Which file format is commonly used for structured data exchange?",
+      "options": [
+        "MP3",
+        "JPEG",
+        "WAV",
+        "JSON"
+      ],
+      "answer": "JSON"
+    },
+    {
+      "id": 75,
+      "question": "Which action helps reduce data loss?",
+      "options": [
+        "Sharing all passwords",
+        "Ignoring storage errors",
+        "Keeping regular backups",
+        "Deleting all copies"
+      ],
+      "answer": "Keeping regular backups"
+    },
+    {
+      "id": 76,
+      "question": "Which is an example of recycling?",
+      "options": [
+        "Wasting drinking water",
+        "Turning waste paper into new paper",
+        "Burning plastic in the open",
+        "Littering a river"
+      ],
+      "answer": "Turning waste paper into new paper"
+    },
+    {
+      "id": 77,
+      "question": "Which farming practice helps conserve soil?",
+      "options": [
+        "Planting cover crops",
+        "Removing all vegetation",
+        "Overgrazing",
+        "Leaving soil bare on slopes"
+      ],
+      "answer": "Planting cover crops"
+    },
+    {
+      "id": 78,
+      "question": "What is rainwater harvesting?",
+      "options": [
+        "Removing salt from oceans",
+        "Burning fossil fuels",
+        "Measuring earthquake strength",
+        "Collecting rainwater for later use"
+      ],
+      "answer": "Collecting rainwater for later use"
+    },
+    {
+      "id": 79,
+      "question": "Which disease is spread by mosquitoes?",
+      "options": [
+        "Rickets",
+        "Diabetes",
+        "Malaria",
+        "Scurvy"
+      ],
+      "answer": "Malaria"
+    },
+    {
+      "id": 80,
+      "question": "Which material is typically biodegradable?",
+      "options": [
+        "Plastic bag",
+        "Vegetable peels",
+        "Glass bottle",
+        "Aluminium can"
+      ],
+      "answer": "Vegetable peels"
+    },
+    {
+      "id": 81,
+      "question": "What is 7 \u00d7 3?",
+      "options": [
+        "21",
+        "22",
+        "18",
+        "10"
+      ],
+      "answer": "21"
+    },
+    {
+      "id": 82,
+      "question": "What is 8 \u00d7 4?",
+      "options": [
+        "33",
+        "28",
+        "12",
+        "32"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": 83,
+      "question": "What is 9 \u00d7 5?",
+      "options": [
+        "40",
+        "14",
+        "45",
+        "46"
+      ],
+      "answer": "45"
+    },
+    {
+      "id": 84,
+      "question": "What is 10 \u00d7 6?",
+      "options": [
+        "16",
+        "60",
+        "61",
+        "54"
+      ],
+      "answer": "60"
+    },
+    {
+      "id": 85,
+      "question": "What is 11 \u00d7 7?",
+      "options": [
+        "77",
+        "78",
+        "70",
+        "18"
+      ],
+      "answer": "77"
+    },
+    {
+      "id": 86,
+      "question": "What is 12 \u00d7 8?",
+      "options": [
+        "97",
+        "88",
+        "20",
+        "96"
+      ],
+      "answer": "96"
+    },
+    {
+      "id": 87,
+      "question": "What is 13 \u00d7 2?",
+      "options": [
+        "24",
+        "15",
+        "26",
+        "27"
+      ],
+      "answer": "26"
+    },
+    {
+      "id": 88,
+      "question": "What is 14 \u00d7 3?",
+      "options": [
+        "17",
+        "42",
+        "43",
+        "39"
+      ],
+      "answer": "42"
+    },
+    {
+      "id": 89,
+      "question": "What is 15 \u00d7 4?",
+      "options": [
+        "60",
+        "61",
+        "56",
+        "19"
+      ],
+      "answer": "60"
+    },
+    {
+      "id": 90,
+      "question": "What is 16 \u00d7 5?",
+      "options": [
+        "81",
+        "75",
+        "21",
+        "80"
+      ],
+      "answer": "80"
+    },
+    {
+      "id": 91,
+      "question": "What is 17 \u00d7 6?",
+      "options": [
+        "96",
+        "23",
+        "102",
+        "103"
+      ],
+      "answer": "102"
+    },
+    {
+      "id": 92,
+      "question": "What is 18 \u00d7 7?",
+      "options": [
+        "25",
+        "126",
+        "127",
+        "119"
+      ],
+      "answer": "126"
+    },
+    {
+      "id": 93,
+      "question": "What is 19 \u00d7 8?",
+      "options": [
+        "152",
+        "153",
+        "144",
+        "27"
+      ],
+      "answer": "152"
+    },
+    {
+      "id": 94,
+      "question": "What is 20 \u00d7 2?",
+      "options": [
+        "41",
+        "38",
+        "22",
+        "40"
+      ],
+      "answer": "40"
+    },
+    {
+      "id": 95,
+      "question": "What is 21 \u00d7 3?",
+      "options": [
+        "60",
+        "24",
+        "63",
+        "64"
+      ],
+      "answer": "63"
+    },
+    {
+      "id": 96,
+      "question": "What is 22 \u00d7 4?",
+      "options": [
+        "26",
+        "88",
+        "89",
+        "84"
+      ],
+      "answer": "88"
+    },
+    {
+      "id": 97,
+      "question": "What is 23 \u00d7 5?",
+      "options": [
+        "115",
+        "116",
+        "110",
+        "28"
+      ],
+      "answer": "115"
+    },
+    {
+      "id": 98,
+      "question": "What is 24 \u00d7 6?",
+      "options": [
+        "145",
+        "138",
+        "30",
+        "144"
+      ],
+      "answer": "144"
+    },
+    {
+      "id": 99,
+      "question": "What is 25 \u00d7 7?",
+      "options": [
+        "168",
+        "32",
+        "175",
+        "176"
+      ],
+      "answer": "175"
+    },
+    {
+      "id": 100,
+      "question": "What is 26 \u00d7 8?",
+      "options": [
+        "34",
+        "208",
+        "209",
+        "200"
+      ],
+      "answer": "208"
+    }
+  ]
+}

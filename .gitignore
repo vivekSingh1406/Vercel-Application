@@ -7,3 +7,18 @@
 .DS_Store
 
 /application-local.properties
+
+# Terraform local state, inputs and plans
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+crash.log
+
+# Local EC2 upload backups
+/uploads-backup*.tar.gz
+
+# Local AWS credentials (automatically loaded by Terraform)
+/infra/terraform/credentials.auto.tfvars

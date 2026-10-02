@@ -21,6 +21,7 @@ import org.springframework.transaction.annotation.Transactional;
 @org.springframework.test.context.ActiveProfiles("test")
 @AutoConfigureMockMvc
 @Transactional
+@org.springframework.security.test.context.support.WithMockUser(roles="ADMIN")
 class MigrationTest {
   @Autowired ContentService service;
   @Autowired StaticMediaService media;

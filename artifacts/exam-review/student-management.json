@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Admin creates student and filters student list",
+    "Admin opens complete student profile",
+    "Student logs in, saves answer and submits first attempt",
+    "Retake has separate ID; student only sees latest attempt and old URLs are denied",
+    "Student cannot access admin data",
+    "Admin sees both attempts and detailed answers",
+    "Result search, exam filter, date filter and sorting work",
+    "Deactivation revokes existing student access and preserves history"
+  ],
+  "errors": []
+}

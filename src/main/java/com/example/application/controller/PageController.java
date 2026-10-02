@@ -114,4 +114,29 @@ public class PageController {
     m.addAttribute("drafts", content.drafts());
     return "pages/admin";
   }
+  @GetMapping({"/admin/exam-center", "/admin/exam-center/students", "/admin/exam-center/students/{studentId}",
+      "/admin/exam-center/results", "/admin/exam-center/results/{resultId}"})
+  public String examAdministration(Model m) {
+    m.addAttribute("pageTitle","Exam Center administration"); return "pages/exam-admin";
+  }
+  @GetMapping({"/login", "/signup", "/admin-login"})
+  public String authentication(Model m, HttpServletRequest request) {
+    m.addAttribute("authMode","login");
+    m.addAttribute("adminLogin",request.getServletPath().equals("/admin-login"));
+    m.addAttribute("pageTitle",request.getServletPath().equals("/admin-login") ? "Admin login" : "Student login");
+    return "pages/auth";
+  }
+
+  @GetMapping({"/exam-center", "/exam-center/history", "/exam-center/attempts/{attemptId}",
+      "/exam-center/attempts/{attemptId}/result", "/exam-center/attempts/{attemptId}/review"})
+  public String exams(Model m, HttpServletRequest request, @PathVariable(required=false) String attemptId) {
+    if (request.isUserInRole("ADMIN")) return "redirect:/admin/exam-center/students";
+    String path=request.getServletPath();
+    String view=path.endsWith("/history") ? "history" : path.endsWith("/result") ? "result"
+        : path.endsWith("/review") ? "review" : attemptId!=null ? "attempt" : "center";
+    m.addAttribute("examView",view);
+    m.addAttribute("attemptId",attemptId);
+    m.addAttribute("pageTitle","Exam Center");
+    return "pages/exam";
+  }
 }

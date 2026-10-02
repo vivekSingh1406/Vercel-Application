@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Repeated admin navigation, refresh, parallel API and asset requests return 200",
+    "Wrong admin password returns 401; subsequent valid login still works",
+    "Admin-created learner login/exam/refresh work while the browser sends cached admin Basic headers",
+    "Cached admin headers cannot bypass learner logout or exam authorization",
+    "No HTTP 500 responses or browser JavaScript errors"
+  ],
+  "serverErrors": [],
+  "javascriptErrors": []
+}

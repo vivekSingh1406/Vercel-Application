@@ -1,0 +1,9 @@
+aws_region       = "ap-south-1"
+name             = "gautiyan-tola"
+public_key_path  = "~/.ssh/village.pub"
+ssh_cidr         = "203.0.113.10/32" # Replace with your public IPv4 address.
+web_cidr         = "203.0.113.10/32" # Use your IP for HTTP testing; 0.0.0.0/0 for a public HTTPS site.
+instance_type    = "t3.small"
+db_instance_class = "db.t4g.micro"
+deletion_protection = true
+# Supply db_password through TF_VAR_db_password instead of committing it here.

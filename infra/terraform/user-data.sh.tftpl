@@ -1,0 +1,8 @@
+#!/bin/bash
+set -euo pipefail
+dnf install -y docker
+systemctl enable --now docker
+install -d -m 700 /opt/village
+install -d -m 755 -o 10001 -g 10001 /opt/village/uploads
+# Application deployment happens over SSH, after cloud-init completes.
+touch /opt/village/bootstrap-ready

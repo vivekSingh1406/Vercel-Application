@@ -1,0 +1,37 @@
+{
+  "maven": {
+    "command": "mvn -o verify",
+    "tests": 30,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "warBuild": "passed"
+  },
+  "examBrowser": {
+    "checks": 19,
+    "packagedWar": true,
+    "javascriptErrors": 0,
+    "viewports": [
+      390,
+      768,
+      1440
+    ]
+  },
+  "existingBrowser": {
+    "workflowGroups": 9,
+    "passed": true
+  },
+  "database": "Tests used isolated MySQL 8.4 on port 3307; V3 applied to application database on final startup.",
+  "authenticationBrowser": {
+    "checks": 5,
+    "http500Responses": 0,
+    "javascriptErrors": 0
+  },
+  "livePort8080": {
+    "repeatedConcurrentRequests": 12,
+    "passed": true,
+    "publicSignupLoginHome": 200,
+    "anonymousExamApi": 401
+  },
+  "databasePersistenceConfirmed": true
+}

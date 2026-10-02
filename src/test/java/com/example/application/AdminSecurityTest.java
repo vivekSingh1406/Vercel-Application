@@ -15,12 +15,36 @@ import org.springframework.test.web.servlet.MockMvc;
 @AutoConfigureMockMvc
 class AdminSecurityTest {
   @Autowired MockMvc mvc;
+  @Autowired com.example.application.exam.LearnerRepository learners;
 
   @Test
   void configuredCredentialsProtectWorkspaceAndExport() throws Exception {
     mvc.perform(get("/")).andExpect(status().isOk());
     mvc.perform(get("/admin")).andExpect(status().isUnauthorized());
     mvc.perform(get("/admin/export")).andExpect(status().isUnauthorized());
+    mvc.perform(get("/admin").with(httpBasic("admin", "wrong")))
+        .andExpect(status().isUnauthorized());
+    mvc.perform(get("/admin").with(httpBasic("admin", "integration-test-only")))
+        .andExpect(status().isOk());
+  }
+  @Test
+  @org.springframework.transaction.annotation.Transactional
+  void learnerRoleCannotAccessAdminWorkspace() throws Exception {
+    var u=new com.example.application.exam.Learner(); u.setId(java.util.UUID.randomUUID().toString());
+    u.setUsername("security-"+u.getId());u.setName("Security learner");u.setPasswordHash("unused");u.setCreatedAt(java.time.Instant.now());learners.saveAndFlush(u);
+    for (String path : new String[]{"/admin", "/admin/export"}) {
+      mvc.perform(get(path).with(org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.user(u.getId()).roles("LEARNER")))
+          .andExpect(status().isForbidden());
+    }
+  }
+  @Test
+  void repeatedBasicAuthenticationWorksForPagesAssetsAndExport() throws Exception {
+    for (int round = 0; round < 3; round++) {
+      for (String path : new String[]{"/admin", "/admin/export", "/", "/css/site.css", "/js/site.js"}) {
+        mvc.perform(get(path).with(httpBasic("admin", "integration-test-only")))
+            .andExpect(status().isOk());
+      }
+    }
     mvc.perform(get("/admin").with(httpBasic("admin", "wrong")))
         .andExpect(status().isUnauthorized());
     mvc.perform(get("/admin").with(httpBasic("admin", "integration-test-only")))

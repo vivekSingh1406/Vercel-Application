@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "Anonymous Exam Center redirects to login",
+    "Anonymous exam API returns 401",
+    "Wrong password displays useful error",
+    "Login session opens Exam Center",
+    "100 questions load without correct answers; active review is blocked",
+    "Selection changes, next/previous, navigator and refresh preserve saved answers and position",
+    "Network failure keeps selection, blocks submit and retries safely; answers can be cleared",
+    "Exam renders without horizontal overflow at mobile, tablet and desktop widths",
+    "Confirmation can cancel; submit calculates and persists mixed result",
+    "Review shows correct, incorrect and unanswered states",
+    "Completed attempt rejects duplicate submit and answer changes",
+    "History displays saved result",
+    "Separate browser account cannot read another user attempt, result, review or history",
+    "Actual API scores all-correct and all-incorrect attempts and ignores client-supplied marks",
+    "Logout invalidates authenticated session",
+    "Expired session redirects with a useful message",
+    "No browser JavaScript errors"
+  ],
+  "passed": 17
+}
